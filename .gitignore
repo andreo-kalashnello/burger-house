@@ -1,0 +1,26 @@
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# local
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+pnpm-debug.log*
+
+# typescript
+*.tsbuildinfo
+
+# env files
+.env*
+
+# visual verification
+/output/playwright/

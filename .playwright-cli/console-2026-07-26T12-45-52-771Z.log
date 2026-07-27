@@ -1,0 +1,45 @@
+[    1338ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ http://127.0.0.1:3001/_next/static/chunks/437.12c923cde5cac612.js:586
+[    1342ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ http://127.0.0.1:3001/_next/static/chunks/437.12c923cde5cac612.js:586
+[    1342ms] [LOG] [$updateSource] BAILING OUT EARLY! @ http://127.0.0.1:3001/_next/static/chunks/437.12c923cde5cac612.js:589
+[    1814ms] [LOG] IntersectionObserver fired! isIntersecting: true @ http://127.0.0.1:3001/_next/static/chunks/437.12c923cde5cac612.js:586
+[    1814ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ http://127.0.0.1:3001/_next/static/chunks/437.12c923cde5cac612.js:586
+[    1814ms] [LOG] [$updateSource] BAILING OUT EARLY! @ http://127.0.0.1:3001/_next/static/chunks/437.12c923cde5cac612.js:589
+[   27040ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ http://127.0.0.1:3001/_next/static/chunks/437.12c923cde5cac612.js:586
+[   27043ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ http://127.0.0.1:3001/_next/static/chunks/437.12c923cde5cac612.js:586
+[   27043ms] [LOG] [$updateSource] BAILING OUT EARLY! @ http://127.0.0.1:3001/_next/static/chunks/437.12c923cde5cac612.js:589
+[   27369ms] [LOG] IntersectionObserver fired! isIntersecting: true @ http://127.0.0.1:3001/_next/static/chunks/437.12c923cde5cac612.js:586
+[   27369ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ http://127.0.0.1:3001/_next/static/chunks/437.12c923cde5cac612.js:586
+[   27369ms] [LOG] [$updateSource] BAILING OUT EARLY! @ http://127.0.0.1:3001/_next/static/chunks/437.12c923cde5cac612.js:589
+[  107159ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ http://127.0.0.1:3001/_next/static/chunks/437.12c923cde5cac612.js:586
+[  107161ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ http://127.0.0.1:3001/_next/static/chunks/437.12c923cde5cac612.js:586
+[  107161ms] [LOG] [$updateSource] BAILING OUT EARLY! @ http://127.0.0.1:3001/_next/static/chunks/437.12c923cde5cac612.js:589
+[  107505ms] [LOG] IntersectionObserver fired! isIntersecting: true @ http://127.0.0.1:3001/_next/static/chunks/437.12c923cde5cac612.js:586
+[  107505ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ http://127.0.0.1:3001/_next/static/chunks/437.12c923cde5cac612.js:586
+[  107505ms] [LOG] [$updateSource] BAILING OUT EARLY! @ http://127.0.0.1:3001/_next/static/chunks/437.12c923cde5cac612.js:589

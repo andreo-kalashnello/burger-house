@@ -1,0 +1,179 @@
+<!DOCTYPE html><html lang="en" style=""><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Featured Favorites Menu</title>
+<!-- Google Fonts: Inter for UI, Anton for Headings, and Pacifico for script accent -->
+<link href="https://fonts.googleapis.com/css2?family=Anton&amp;family=Inter:wght@400;600;700&amp;family=Pacifico&amp;display=swap" rel="stylesheet">
+<!-- Tailwind CSS v3 -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'menu-bg': '#fcf9f8',
+            'brand-red': '#d3320a',
+            'brand-orange': '#f2a900',
+            'brand-green': '#79af00',
+            'text-gray': '#555555',
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            display: ['Anton', 'sans-serif'],
+            script: ['Pacifico', 'cursive'],
+          },
+          borderRadius: {
+            '3xl': '24px',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-menu-bg min-h-screen py-16 px-4 font-sans">
+<!-- BEGIN: MainContainer -->
+<main class="max-width-[1280px] mx-auto relative">
+<!-- Decorative Green Sparks Top Left -->
+<div class="absolute -top-4 left-6 text-brand-green opacity-80" data-purpose="decorative-element">
+<svg fill="currentColor" height="30" viewBox="0 0 24 24" width="30">
+<path d="M12 2l1 4h4l-3 3 1 4-3-2-3 2 1-4-3-3h4z" transform="rotate(-15 12 12)"></path>
+</svg>
+</div>
+<!-- BEGIN: HeaderSection -->
+<header class="flex flex-col md:flex-row justify-between items-end mb-12 px-2" data-purpose="section-header">
+<div class="flex flex-col">
+<span class="font-script text-brand-orange text-3xl mb-1 ml-1">Try Our</span>
+<h1 class="font-display text-5xl md:text-6xl uppercase tracking-tight text-black">Featured Favorites</h1>
+</div>
+<!-- Category Filter Tabs -->
+<nav class="flex flex-wrap gap-3 mt-8 md:mt-0" data-purpose="category-navigation">
+<button class="bg-brand-red text-white px-8 py-2.5 rounded-full font-semibold shadow-md">All</button>
+<button class="bg-white hover:bg-gray-50 text-black px-8 py-2.5 rounded-full font-semibold shadow-sm border border-gray-100">Burgers</button>
+<button class="bg-white hover:bg-gray-50 text-black px-8 py-2.5 rounded-full font-semibold shadow-sm border border-gray-100">Chicken</button>
+<button class="bg-white hover:bg-gray-50 text-black px-8 py-2.5 rounded-full font-semibold shadow-sm border border-gray-100">Sides</button>
+<button class="bg-white hover:bg-gray-50 text-black px-8 py-2.5 rounded-full font-semibold shadow-sm border border-gray-100">Drinks</button>
+</nav>
+</header>
+<!-- END: HeaderSection -->
+<!-- BEGIN: MenuGrid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-16" data-purpose="product-grid">
+<!-- Card 1: Classic Burger -->
+<div class="bg-white rounded-3xl p-6 shadow-xl shadow-gray-200/50 flex flex-col relative group transition-transform hover:-translate-y-1">
+<!-- Badge -->
+<div class="absolute top-4 left-4 bg-brand-green text-white text-xs font-bold px-3 py-1.5 rounded-lg uppercase tracking-wider z-10">Best Seller</div>
+<!-- Image Container -->
+<div class="flex items-center justify-center mb-6 overflow-hidden aspect-[4/3] rounded-xl">
+<img alt="Classic Burger" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD6r4olkyVaz6dV688ct9knexkZ1zPI5TlHZRs5vf-6-HNde-J_fwKgLF4uoApNe5DZuTyNVt_teOB6HLDSi3gmMIbWD38gXXKwgPS4_6_AOk8gmWqZvMtt2lxvNu_gH9dDkGIW_aZCBbytse000rNiKNAmWW3mWojbxRnxFvoogMm86eQNOVhZjiCgh7mAQiafsCwz04px_u8wWQJr7WPiPV1ZaZgV0mxR9de2tbj6o5tp2Hk5T6gTU_rR2xQcpU0hCJ4mdWKLX6FH">
+</div>
+<!-- Content -->
+<div class="flex-grow">
+<h3 class="text-2xl font-bold text-black mb-3">Classic Burger</h3>
+<p class="text-text-gray text-sm leading-relaxed">Beef patty, lettuce, tomato, onions, pickles, house sauce.</p>
+</div>
+<!-- Footer -->
+<div class="flex justify-between items-center mt-6">
+<span class="text-2xl font-bold text-black">$7.49</span>
+<button class="bg-brand-red text-white w-10 h-10 rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform">
+<svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 6v6m0 0v6m0-6h6m-6 0H6" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</button>
+</div>
+</div>
+<!-- Card 2: Double Cheese -->
+<div class="bg-white rounded-3xl p-6 shadow-xl shadow-gray-200/50 flex flex-col relative group transition-transform hover:-translate-y-1">
+<!-- Badge Icon -->
+<div class="absolute top-4 left-4 bg-brand-orange text-white p-1.5 rounded-lg z-10">
+<svg fill="currentColor" height="18" viewBox="0 0 24 24" width="18"><path d="M5 16L3 5L8.5 10L12 4L15.5 10L21 5L19 16H5M19 19C19 19.6 18.6 20 18 20H6C5.4 20 5 19.6 5 19V18H19V19Z"></path></svg>
+</div>
+<div class="flex items-center justify-center mb-6 overflow-hidden aspect-[4/3] rounded-xl">
+<img alt="Double Smash Burger" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQaiq4X86j7wNSsx60Rlt2fnWGKlVYBeXWh6cSeJ_q9dMI8yAcTkazem-n3oF2q9bdhwHfdpsUlhEjjjRz1hGpWIBpTiR8uEiRTG_7pabvE1QvdPypfCQlFjxtvRU5I5tLOZcL56AgQPZ67tLOUJ4NPJUNkM5ruZFrrwfLo4j9yl2hTk0EkfbF1uBBQmNjcWeOoL6EQpoIr1_2_MYC93ZYGjbNNTF4ZcZkIgNjwauAO2SJFrnZD32NdF3V-4Z_OtHYBwwmmwvj4d1q">
+</div>
+<div class="flex-grow">
+<h3 class="text-2xl font-bold text-black mb-3">Double Smash Burger</h3>
+<p class="text-text-gray text-sm leading-relaxed">Two thin, crispy-edged beef patties, layered with melted American cheese, onions, and special sauce.</p>
+</div>
+<div class="flex justify-between items-center mt-6">
+<span class="text-2xl font-bold text-black">$9.49</span>
+<button class="bg-brand-red text-white w-10 h-10 rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform">
+<svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 6v6m0 0v6m0-6h6m-6 0H6" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</button>
+</div>
+</div>
+<!-- Card 3: Spicy Jalapeño -->
+<div class="bg-white rounded-3xl p-6 shadow-xl shadow-gray-200/50 flex flex-col relative group transition-transform hover:-translate-y-1">
+<!-- Badge -->
+<div class="absolute top-4 left-4 bg-brand-red text-white text-xs font-bold px-3 py-1.5 rounded-lg uppercase flex items-center gap-1 z-10">
+<svg fill="currentColor" height="12" viewBox="0 0 24 24" width="12"><path d="M19.66 8.05c-1.1-1.39-2.9-2.28-4.43-2.73 1.13 1.4 1.25 3.33.29 4.8-.97 1.46-2.58 2.22-4.13 2.1-1.55-.12-3-.95-3.83-2.31-.83-1.35-.91-2.93-.24-4.32-.67.4-1.28.91-1.81 1.52-1.61 1.83-2.19 4.38-1.51 6.77.68 2.39 2.5 4.34 4.8 5.16 2.3.82 4.85.34 6.69-1.22 1.84-1.56 2.69-4.04 2.17-6.57zm-11.4 2.76c.4.65 1.11 1.05 1.85 1.11.75.06 1.52-.29 1.99-1 .47-.7.53-1.65-.02-2.32-.2-.25-.45-.44-.73-.59.1.5-.1 1-.52 1.34-.42.34-1 .41-1.48.2-.1.21-.13.43-.09.66z"></path></svg>
+          Spicy
+        </div>
+<div class="flex items-center justify-center mb-6 overflow-hidden aspect-[4/3] rounded-xl">
+<img alt="Spicy Jalapeño" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAXZiE-1ZABA6XjwVHm8GZzld5Gh4DPB-nPlajrAxVKyO1mQzbW7qRXgiQlBsc4GeNOESF7RwO1i885mbglJZ150L7l3z7_Oqk2BivgVmcnrLLDnbHsR9699XQ1trI9Ycuiyy6xTDpfL2E8fauBMn1vMgwAjqTlo3ssTXl3fomPZ2-uDRG2kDslxWUi451V61QwuA9TSzJ03eqe80g38ktr4FEc2InqDwvawE0pNixFr5xjuhIH_iBA7PzwGNoUrE3ROQDbUXtvWV9w">
+</div>
+<div class="flex-grow">
+<h3 class="text-2xl font-bold text-black mb-3">Spicy Jalapeño</h3>
+<p class="text-text-gray text-sm leading-relaxed">Beef patty, jalapeños, pepper jack cheese, spicy mayo.</p>
+</div>
+<div class="flex justify-between items-center mt-6">
+<span class="text-2xl font-bold text-black">$8.49</span>
+<button class="bg-brand-red text-white w-10 h-10 rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform">
+<svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 6v6m0 0v6m0-6h6m-6 0H6" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</button>
+</div>
+</div>
+<!-- Card 4: BBQ Bacon Burger -->
+<div class="bg-white rounded-3xl p-6 shadow-xl shadow-gray-200/50 flex flex-col relative group transition-transform hover:-translate-y-1">
+<!-- Badge -->
+<div class="absolute top-4 left-4 bg-brand-orange text-white text-xs font-bold px-3 py-1.5 rounded-lg uppercase tracking-wider z-10">NEW</div>
+<div class="flex items-center justify-center mb-6 overflow-hidden aspect-[4/3] rounded-xl">
+<img alt="BBQ Bacon Burger" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDJbh8zXS-Y0aDyDkOEHmPXFGLF4qHRrdodZ3264pIfypVdVuQkPSMA_z85i2vVAGMNlPmfzcz7W8sM4XVMoQeZauaHpGDqWotfnChefZH6FubY4Jc7nTX5N65rnjUAUN3oHYly_U0pCx1yV-rzcM56UeaENejzGrfgZiF3TiNPMKbOCxIUiqLBhmDZ72T3JtD-N3UcofYkSe4v-akdfxaAu8YWmnZM4A2ov1FLdBXft-pF1XDUooDUS6Rqv8z5qlNdHWNieOZFMupH">
+</div>
+<div class="flex-grow">
+<h3 class="text-2xl font-bold text-black mb-3">BBQ Bacon Burger</h3>
+<p class="text-text-gray text-sm leading-relaxed">Large beef patty, crispy bacon, onion rings, and BBQ sauce on a toasted brioche bun.</p>
+</div>
+<div class="flex justify-between items-center mt-6">
+<span class="text-2xl font-bold text-black">$9.99</span>
+<button class="bg-brand-red text-white w-10 h-10 rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform">
+<svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 6v6m0 0v6m0-6h6m-6 0H6" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</button>
+</div>
+</div>
+</div>
+<!-- END: MenuGrid -->
+<!-- BEGIN: FooterAction -->
+<div class="flex justify-center relative" data-purpose="footer-call-to-action">
+<button class="flex items-center gap-3 px-10 py-5 rounded-full border-2 border-dashed border-brand-red text-black font-bold text-lg hover:bg-brand-red hover:text-white transition-all group">
+        View full menu
+        <span class="text-brand-red group-hover:text-white transition-colors">
+<svg fill="currentColor" height="24" viewBox="0 0 24 24" width="24">
+<path d="M11,21C11,21.55 10.55,22 10,22H4C3.45,22 3,21.55 3,21V18C3,17.45 3.45,17 4,17H10C10.55,17 11,17.45 11,18V21M21,18V21C21,21.55 20.55,22 20,22H14C13.45,22 13,21.55 13,21V18C13,17.45 13.45,17 14,17H20C20.55,17 21,17.45 21,18M3,4V7C3,7.55 3.45,8 4,8H20C20.55,8 21,7.55 21,7V4C21,3.45 20.55,3 20,3H4C3.45,3 3,3.45 3,4M3,11V14C3,14.55 3.45,15 4,15H20C20.55,15 21,14.55 21,14V11C21,10.45 20.55,10 20,10H4C3.45,10 3,10.45 3,11Z"></path>
+</svg>
+</span>
+</button>
+<!-- Decorative Green Sparks Bottom Right -->
+<div class="absolute -bottom-8 right-10 text-brand-green opacity-80 rotate-180" data-purpose="decorative-element">
+<svg fill="currentColor" height="30" viewBox="0 0 24 24" width="30">
+<path d="M12 2l1 4h4l-3 3 1 4-3-2-3 2 1-4-3-3h4z" transform="rotate(45 12 12)"></path>
+</svg>
+</div>
+</div>
+<!-- END: FooterAction -->
+</main>
+<!-- END: MainContainer -->
+<!-- BEGIN: CustomStyles -->
+<style data-purpose="font-adjustments">
+    /* Extra refinement for the Anton font to match the image's heavy feel */
+    h1 {
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+    }
+  </style>
+<!-- END: CustomStyles -->
+</body></html>
