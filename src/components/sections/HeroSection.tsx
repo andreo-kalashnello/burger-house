@@ -26,9 +26,6 @@ export function HeroSection() {
   return (
     <section className="hero-section" id="home" ref={sectionRef} aria-labelledby="hero-title">
       <div className="hero-pattern" aria-hidden="true" />
-      <div className="sauce-drip" aria-hidden="true">
-        <Image src="/images/decor/hero-drip-transparent.png" alt="" fill sizes="114px" />
-      </div>
       <div className="container hero-section__inner">
         <div className="hero-copy">
           <motion.div
@@ -120,25 +117,58 @@ export function HeroSection() {
             <strong>20%</strong>
             <small>OFF</small>
           </motion.div>
-          <div className="floating-card floating-card--delivery">
+          <motion.div
+            className="floating-card floating-card--delivery"
+            animate={reduceMotion ? undefined : { y: [0, -8, 0] }}
+            transition={{ duration: 3.6, repeat: Infinity, ease: "easeInOut" }}
+          >
             <Clock3 aria-hidden="true" />
             <strong>20–30 min</strong>
             <span>Fast Delivery</span>
-          </div>
-          <div className="floating-card floating-card--rating">
+          </motion.div>
+          <motion.div
+            className="floating-card floating-card--rating"
+            animate={reduceMotion ? undefined : { y: [0, 9, 0] }}
+            transition={{ duration: 4.2, repeat: Infinity, ease: "easeInOut", delay: 0.4 }}
+          >
             <Star aria-hidden="true" fill="currentColor" />
             <strong>4.8</strong>
             <span>Google Rating</span>
+          </motion.div>
+          <div className="hero-tomato" aria-hidden="true">
+            <motion.div style={{ y: reduceMotion ? 0 : tomatoY }}>
+              <Image src="/images/hero/tomato.png" alt="" width={150} height={150} />
+            </motion.div>
           </div>
-          <motion.div className="hero-tomato" style={{ y: reduceMotion ? 0 : tomatoY }} aria-hidden="true">
-            <Image src="/images/hero/tomato.png" alt="" width={150} height={150} />
+          <div className="hero-lettuce" aria-hidden="true">
+            <motion.div style={{ y: reduceMotion ? 0 : lettuceY }}>
+              <Image src="/images/hero/lettuce.png" alt="" width={800} height={501} />
+            </motion.div>
+          </div>
+          <motion.div
+            className="doodle doodle--spark-one"
+            aria-hidden="true"
+            animate={reduceMotion ? undefined : { rotate: [0, 18, 0], scale: [1, 1.15, 1] }}
+            transition={{ duration: 3.2, repeat: Infinity, ease: "easeInOut" }}
+          >
+            <Sparkles />
           </motion.div>
-          <motion.div className="hero-lettuce" style={{ y: reduceMotion ? 0 : lettuceY }} aria-hidden="true">
-            <Image src="/images/hero/lettuce.png" alt="" width={800} height={501} />
+          <motion.div
+            className="doodle doodle--spark-two"
+            aria-hidden="true"
+            animate={reduceMotion ? undefined : { rotate: [0, -16, 0], scale: [1, 1.15, 1] }}
+            transition={{ duration: 3.6, repeat: Infinity, ease: "easeInOut", delay: 0.6 }}
+          >
+            <Sparkles />
           </motion.div>
-          <Sparkles className="doodle doodle--spark-one" aria-hidden="true" />
-          <Sparkles className="doodle doodle--spark-two" aria-hidden="true" />
-          <Star className="doodle doodle--star" aria-hidden="true" />
+          <motion.div
+            className="doodle doodle--star"
+            aria-hidden="true"
+            animate={reduceMotion ? undefined : { rotate: [0, 360] }}
+            transition={{ duration: 9, repeat: Infinity, ease: "linear" }}
+          >
+            <Star />
+          </motion.div>
         </div>
       </div>
       <div className="hero-wave" aria-hidden="true">

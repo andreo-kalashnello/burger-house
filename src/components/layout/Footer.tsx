@@ -1,3 +1,5 @@
+"use client";
+
 import {
   Clock3,
   Facebook,
@@ -8,6 +10,7 @@ import {
   Phone,
   Youtube,
 } from "lucide-react";
+import { motion, useReducedMotion } from "framer-motion";
 import Image from "next/image";
 import { BrandLogo } from "@/components/ui/BrandLogo";
 
@@ -29,8 +32,10 @@ const supportLinks = [
 ];
 
 export function Footer() {
+  const reduceMotion = useReducedMotion();
+
   return (
-    <footer className="site-footer" id="contact">
+    <footer className="site-footer">
       <div className="site-footer__wave" aria-hidden="true">
         <Image src="/images/decor/footer-wave.svg" alt="" fill sizes="100vw" />
       </div>
@@ -43,15 +48,23 @@ export function Footer() {
             Thanks for being part of the Burger House family!
           </p>
           <div className="social-links" aria-label="Social media">
-            <a className="focus-ring" href="https://instagram.com" aria-label="Instagram">
-              <Instagram aria-hidden="true" />
-            </a>
-            <a className="focus-ring" href="https://facebook.com" aria-label="Facebook">
-              <Facebook aria-hidden="true" />
-            </a>
-            <a className="focus-ring" href="https://youtube.com" aria-label="YouTube">
-              <Youtube aria-hidden="true" />
-            </a>
+            {[
+              { Icon: Instagram, label: "Instagram", href: "https://instagram.com" },
+              { Icon: Facebook, label: "Facebook", href: "https://facebook.com" },
+              { Icon: Youtube, label: "YouTube", href: "https://youtube.com" },
+            ].map(({ Icon, label, href }) => (
+              <motion.a
+                className="focus-ring"
+                href={href}
+                aria-label={label}
+                key={label}
+                whileHover={reduceMotion ? undefined : { rotate: -10, scale: 1.12 }}
+                whileTap={reduceMotion ? undefined : { scale: 0.92 }}
+                transition={{ type: "spring", stiffness: 320, damping: 12 }}
+              >
+                <Icon aria-hidden="true" />
+              </motion.a>
+            ))}
           </div>
         </div>
         <div className="site-footer__column">

@@ -15,18 +15,19 @@ export function CategoryFilter({ active, onChange }: CategoryFilterProps) {
   return (
     <div className="category-filter" role="group" aria-label="Filter menu categories">
       {categories.map((category) => (
-        <button
+        <motion.button
           className={cn("category-filter__button focus-ring", active === category && "is-active")}
           type="button"
           key={category}
           onClick={() => onChange(category)}
           aria-pressed={active === category}
+          whileTap={reduceMotion ? undefined : { scale: 0.9 }}
         >
           {active === category && !reduceMotion ? (
             <motion.span className="category-filter__active" layoutId="active-category" />
           ) : null}
           <span>{category}</span>
-        </button>
+        </motion.button>
       ))}
     </div>
   );

@@ -1,4 +1,7 @@
-import { Bike, ChefHat, Leaf, Sandwich, type LucideIcon } from "lucide-react";
+"use client";
+
+import { Bike, ChefHat, Flame, Leaf, Sandwich, Sparkles, type LucideIcon } from "lucide-react";
+import { motion, useReducedMotion } from "framer-motion";
 import { Reveal } from "@/components/ui/Reveal";
 import type { Benefit } from "@/types";
 
@@ -37,8 +40,18 @@ const icons: Record<Benefit["icon"], LucideIcon> = {
 };
 
 export function BenefitsSection() {
+  const reduceMotion = useReducedMotion();
+
   return (
     <section className="benefits-section section-shell" id="about" aria-labelledby="benefits-title">
+      <div className="section-decor" aria-hidden="true">
+        <Flame className="section-decor__icon section-decor__icon--drift-b" style={{ top: "6%", right: "6%" }} size={90} />
+        <Sparkles
+          className="section-decor__icon section-decor__icon--drift-a"
+          style={{ bottom: "8%", left: "6%" }}
+          size={64}
+        />
+      </div>
       <div className="container">
         <Reveal>
           <h2 className="benefits-title" id="benefits-title">
@@ -52,9 +65,14 @@ export function BenefitsSection() {
             const Icon = icons[benefit.icon];
             return (
               <Reveal className="benefit-item" delay={index * 0.06} key={benefit.title}>
-                <div className="benefit-item__icon" style={{ backgroundColor: benefit.color }}>
+                <motion.div
+                  className="benefit-item__icon"
+                  style={{ backgroundColor: benefit.color }}
+                  whileHover={reduceMotion ? undefined : { rotate: -12, scale: 1.08 }}
+                  transition={{ type: "spring", stiffness: 300, damping: 12 }}
+                >
                   <Icon aria-hidden="true" size={31} strokeWidth={2.2} />
-                </div>
+                </motion.div>
                 <div>
                   <h3>{benefit.title}</h3>
                   <p>{benefit.description}</p>

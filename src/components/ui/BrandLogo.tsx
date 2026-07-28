@@ -1,4 +1,4 @@
-import { Sandwich } from "lucide-react";
+import Image from "next/image";
 import { cn } from "@/lib/utils";
 
 interface BrandLogoProps {
@@ -14,7 +14,9 @@ export function BrandLogo({ inverse = false, compact = false, className }: Brand
       href="#home"
       aria-label="Burger House — home"
     >
-      <Sandwich aria-hidden="true" className="brand-logo__icon" strokeWidth={2.6} />
+      <span className="brand-logo__mark">
+        <Image src="/images/brand/logo-mark.png" alt="" fill sizes="44px" />
+      </span>
       <span className={cn("brand-logo__words", compact && "brand-logo__words--compact")}>
         <strong>BURGER</strong>
         <strong>HOUSE</strong>

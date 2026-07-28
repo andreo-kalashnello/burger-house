@@ -2,11 +2,39 @@
 
 import { motion, useReducedMotion } from "framer-motion";
 import Image from "next/image";
-import { Check, Plus } from "lucide-react";
+import {
+  Check,
+  CupSoda,
+  Drumstick,
+  Flame,
+  IceCreamCone,
+  Plus,
+  Salad,
+  Utensils,
+  type LucideIcon,
+} from "lucide-react";
 import { useEffect, useState } from "react";
 import { useCart } from "@/context/CartContext";
 import { cn, formatPrice } from "@/lib/utils";
-import type { Burger } from "@/types";
+import type { Burger, BurgerIcon } from "@/types";
+
+const icons: Record<BurgerIcon, LucideIcon> = {
+  tenders: Drumstick,
+  wings: Flame,
+  fries: Utensils,
+  salad: Salad,
+  cola: CupSoda,
+  milkshake: IceCreamCone,
+};
+
+const iconTileColors: Record<BurgerIcon, string> = {
+  tenders: "#f06b15",
+  wings: "#d92721",
+  fries: "#fdb813",
+  salad: "#6ba52f",
+  cola: "#1b1b1b",
+  milkshake: "#c2185b",
+};
 
 export function BurgerCard({ burger }: { burger: Burger }) {
   const { addItem } = useCart();
@@ -40,12 +68,21 @@ export function BurgerCard({ burger }: { burger: Burger }) {
         </span>
       ) : null}
       <div className="burger-card__image">
-        <Image
-          src={burger.image}
-          alt={`${burger.name} with fresh toppings`}
-          fill
-          sizes="(max-width: 639px) 88vw, (max-width: 1023px) 44vw, 280px"
-        />
+        {burger.image ? (
+          <Image
+            src={burger.image}
+            alt={`${burger.name} with fresh toppings`}
+            fill
+            sizes="(max-width: 639px) 88vw, (max-width: 1023px) 44vw, 280px"
+          />
+        ) : burger.icon ? (
+          <div className="burger-card__icon-tile" style={{ backgroundColor: iconTileColors[burger.icon] }}>
+            {(() => {
+              const Icon = icons[burger.icon];
+              return <Icon aria-hidden="true" size={52} strokeWidth={1.6} />;
+            })()}
+          </div>
+        ) : null}
       </div>
       <div className="burger-card__content">
         <h3>{burger.name}</h3>

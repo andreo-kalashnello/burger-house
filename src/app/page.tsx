@@ -1,6 +1,7 @@
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
 import { BenefitsSection } from "@/components/sections/BenefitsSection";
+import { ContactSection } from "@/components/sections/ContactSection";
 import { FeaturedFavorites } from "@/components/sections/FeaturedFavorites";
 import { FinalCtaSection } from "@/components/sections/FinalCtaSection";
 import { HeroSection } from "@/components/sections/HeroSection";
@@ -16,6 +17,7 @@ export default function HomePage() {
         <PromoSection />
         <BenefitsSection />
         <FinalCtaSection />
+        <ContactSection />
       </main>
       <Footer />
     </>

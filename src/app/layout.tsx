@@ -27,9 +27,12 @@ export const metadata: Metadata = {
   description:
     "Fresh burgers, bold flavors and fast delivery from Burger House. Explore our featured favorites and order your next bite.",
   icons: {
-    icon: [{ url: "/images/hero/hero-burger.png", type: "image/png" }],
-    shortcut: "/images/hero/hero-burger.png",
-    apple: "/images/hero/hero-burger.png",
+    icon: [
+      { url: "/icons/favicon-32.png", sizes: "32x32", type: "image/png" },
+      { url: "/icons/favicon-192.png", sizes: "192x192", type: "image/png" },
+    ],
+    shortcut: "/icons/favicon-32.png",
+    apple: "/icons/apple-touch-icon.png",
   },
 };
 

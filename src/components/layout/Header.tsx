@@ -58,8 +58,25 @@ export function Header() {
         </nav>
         <div className="site-header__actions">
           <a className="cart-button focus-ring" href="#menu" aria-label={`Cart with ${itemCount} items`}>
-            <ShoppingBag aria-hidden="true" size={21} />
-            <span aria-hidden="true">{itemCount}</span>
+            <motion.span
+              className="cart-button__icon"
+              key={itemCount}
+              initial={reduceMotion ? false : { scale: 0.6 }}
+              animate={{ scale: 1 }}
+              transition={{ type: "spring", stiffness: 500, damping: 15 }}
+            >
+              <ShoppingBag aria-hidden="true" size={21} />
+            </motion.span>
+            <motion.span
+              className="cart-button__count"
+              key={`count-${itemCount}`}
+              aria-hidden="true"
+              initial={reduceMotion ? false : { scale: 0.4, y: -6 }}
+              animate={{ scale: 1, y: 0 }}
+              transition={{ type: "spring", stiffness: 500, damping: 14 }}
+            >
+              {itemCount}
+            </motion.span>
           </a>
           <Button className="site-header__order" href="#menu">
             Order now
