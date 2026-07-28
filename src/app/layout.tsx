@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import type { ReactNode } from "react";
 import { CartProvider } from "@/context/CartContext";
+import { PreloadProvider } from "@/context/PreloadContext";
+import { Preloader } from "@/components/ui/Preloader";
 import "./globals.css";
 
 const anton = localFont({
@@ -40,7 +42,10 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
   return (
     <html lang="en" className={`${anton.variable} ${beVietnamPro.variable}`}>
       <body className="min-h-screen">
-        <CartProvider>{children}</CartProvider>
+        <PreloadProvider>
+          <Preloader />
+          <CartProvider>{children}</CartProvider>
+        </PreloadProvider>
       </body>
     </html>
   );

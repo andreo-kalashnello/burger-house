@@ -2,6 +2,7 @@
 
 import type { ModelViewerElement } from "@google/model-viewer";
 import { useEffect, useRef, useState } from "react";
+import { usePreload } from "@/context/PreloadContext";
 
 type HeroBurgerModelProps = {
   autoRotate: boolean;
@@ -10,21 +11,28 @@ type HeroBurgerModelProps = {
 export function HeroBurgerModel({ autoRotate }: HeroBurgerModelProps) {
   const modelRef = useRef<ModelViewerElement>(null);
   const [hasError, setHasError] = useState(false);
+  const { markReady } = usePreload();
 
   useEffect(() => {
     const model = modelRef.current;
-    const handleError = () => setHasError(true);
+    const handleLoad = () => markReady();
+    const handleError = () => {
+      setHasError(true);
+      markReady();
+    };
 
+    model?.addEventListener("load", handleLoad);
     model?.addEventListener("error", handleError);
 
     void import("@google/model-viewer").catch(() => {
-      setHasError(true);
+      handleError();
     });
 
     return () => {
+      model?.removeEventListener("load", handleLoad);
       model?.removeEventListener("error", handleError);
     };
-  }, []);
+  }, [markReady]);
 
   return (
     <div className="hero-model-shell">
@@ -45,11 +53,7 @@ export function HeroBurgerModel({ autoRotate }: HeroBurgerModelProps) {
         shadow-softness="0.85"
         exposure="1.08"
         {...(autoRotate ? { "auto-rotate": "" } : {})}
-      >
-        <div className="hero-model__poster" slot="poster" role="status">
-          Loading 3D burger…
-        </div>
-      </model-viewer>
+      />
       {hasError ? (
         <p className="hero-model__error" role="alert">
           3D burger could not be loaded.
