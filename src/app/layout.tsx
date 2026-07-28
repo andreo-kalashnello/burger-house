@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
 import type { ReactNode } from "react";
 import { CartProvider } from "@/context/CartContext";
@@ -36,6 +36,10 @@ export const metadata: Metadata = {
     shortcut: "/icons/favicon-32.png",
     apple: "/icons/apple-touch-icon.png",
   },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#fdb813",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
