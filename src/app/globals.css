@@ -494,6 +494,11 @@ img {
   aspect-ratio: 1.42;
 }
 
+.hero-burger__float {
+  width: 100%;
+  height: 100%;
+}
+
 .hero-model-shell,
 .hero-model {
   display: block;
@@ -1702,8 +1707,10 @@ a.contact-card__link:focus-visible {
 
   .hero-burger {
     top: 60px;
-    right: -27%;
-    width: 130%;
+    right: auto;
+    left: 50%;
+    width: 118%;
+    transform: translateX(-50%);
   }
 
   .discount-badge {

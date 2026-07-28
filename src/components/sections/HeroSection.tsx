@@ -101,13 +101,15 @@ export function HeroSection() {
           </motion.div>
         </div>
         <div className="hero-visual" aria-label="Burger House signature burger">
-          <motion.div
-            className="hero-burger"
-            animate={reduceMotion ? undefined : { y: [0, -10, 0] }}
-            transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
-          >
-            <HeroBurgerModel autoRotate={!reduceMotion} />
-          </motion.div>
+          <div className="hero-burger">
+            <motion.div
+              className="hero-burger__float"
+              animate={reduceMotion ? undefined : { y: [0, -10, 0] }}
+              transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
+            >
+              <HeroBurgerModel autoRotate={!reduceMotion} />
+            </motion.div>
+          </div>
           <motion.div
             className="discount-badge"
             animate={reduceMotion ? undefined : { scale: [1, 1.035, 1] }}
