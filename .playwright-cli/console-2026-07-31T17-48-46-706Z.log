@@ -1,0 +1,272 @@
+[   21106ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.22_react-dom@19.1.2_react@19.1.2__react@19.1.2/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:25630
+[   22815ms] [WARNING] Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information. @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@lit+reactive-element@2.1.2/node_modules/@lit/reactive-element/development/reactive-element.js:62
+[   22820ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:562
+[   22829ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:562
+[   22829ms] [LOG] [$updateSource] BAILING OUT EARLY! @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:565
+[   22830ms] [WARNING] Element model-viewer scheduled an update (generally because a property was set) after an update completed, causing a new update to be scheduled. This is inefficient and should be avoided unless the next update can only be scheduled as a side effect of the previous update. See https://lit.dev/msg/change-in-update for more information. @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@lit+reactive-element@2.1.2/node_modules/@lit/reactive-element/development/reactive-element.js:62
+[   23272ms] [LOG] IntersectionObserver fired! isIntersecting: true @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:303
+[   23272ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:562
+[   23272ms] [LOG] [$updateSource] BAILING OUT EARLY! @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:565
+[   39675ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.22_react-dom@19.1.2_react@19.1.2__react@19.1.2/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:25630
+[   40914ms] [WARNING] Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information. @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@lit+reactive-element@2.1.2/node_modules/@lit/reactive-element/development/reactive-element.js:62
+[   40915ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:562
+[   40917ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:562
+[   40917ms] [LOG] [$updateSource] BAILING OUT EARLY! @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:565
+[   40917ms] [WARNING] Element model-viewer scheduled an update (generally because a property was set) after an update completed, causing a new update to be scheduled. This is inefficient and should be avoided unless the next update can only be scheduled as a side effect of the previous update. See https://lit.dev/msg/change-in-update for more information. @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@lit+reactive-element@2.1.2/node_modules/@lit/reactive-element/development/reactive-element.js:62
+[   41058ms] [LOG] IntersectionObserver fired! isIntersecting: true @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:303
+[   41058ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:562
+[   41058ms] [LOG] [$updateSource] BAILING OUT EARLY! @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:565
+[   71979ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.22_react-dom@19.1.2_react@19.1.2__react@19.1.2/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:25630
+[   73099ms] [WARNING] Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information. @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@lit+reactive-element@2.1.2/node_modules/@lit/reactive-element/development/reactive-element.js:62
+[   73100ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:562
+[   73103ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:562
+[   73103ms] [LOG] [$updateSource] BAILING OUT EARLY! @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:565
+[   73104ms] [WARNING] Element model-viewer scheduled an update (generally because a property was set) after an update completed, causing a new update to be scheduled. This is inefficient and should be avoided unless the next update can only be scheduled as a side effect of the previous update. See https://lit.dev/msg/change-in-update for more information. @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@lit+reactive-element@2.1.2/node_modules/@lit/reactive-element/development/reactive-element.js:62
+[   73341ms] [LOG] IntersectionObserver fired! isIntersecting: true @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:303
+[   73341ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:562
+[   73341ms] [LOG] [$updateSource] BAILING OUT EARLY! @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:565
+[   74536ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.22_react-dom@19.1.2_react@19.1.2__react@19.1.2/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:25630
+[   75614ms] [WARNING] Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information. @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@lit+reactive-element@2.1.2/node_modules/@lit/reactive-element/development/reactive-element.js:62
+[   75616ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:562
+[   75618ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:562
+[   75618ms] [LOG] [$updateSource] BAILING OUT EARLY! @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:565
+[   75619ms] [WARNING] Element model-viewer scheduled an update (generally because a property was set) after an update completed, causing a new update to be scheduled. This is inefficient and should be avoided unless the next update can only be scheduled as a side effect of the previous update. See https://lit.dev/msg/change-in-update for more information. @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@lit+reactive-element@2.1.2/node_modules/@lit/reactive-element/development/reactive-element.js:62
+[   75882ms] [LOG] IntersectionObserver fired! isIntersecting: true @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:303
+[   75882ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:562
+[   75882ms] [LOG] [$updateSource] BAILING OUT EARLY! @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:565
+[   77002ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.22_react-dom@19.1.2_react@19.1.2__react@19.1.2/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:25630
+[   78098ms] [WARNING] Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information. @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@lit+reactive-element@2.1.2/node_modules/@lit/reactive-element/development/reactive-element.js:62
+[   78100ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:562
+[   78102ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:562
+[   78102ms] [LOG] [$updateSource] BAILING OUT EARLY! @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:565
+[   78103ms] [WARNING] Element model-viewer scheduled an update (generally because a property was set) after an update completed, causing a new update to be scheduled. This is inefficient and should be avoided unless the next update can only be scheduled as a side effect of the previous update. See https://lit.dev/msg/change-in-update for more information. @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@lit+reactive-element@2.1.2/node_modules/@lit/reactive-element/development/reactive-element.js:62
+[   78362ms] [LOG] IntersectionObserver fired! isIntersecting: true @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:303
+[   78362ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:562
+[   78362ms] [LOG] [$updateSource] BAILING OUT EARLY! @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:565
+[   79436ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.22_react-dom@19.1.2_react@19.1.2__react@19.1.2/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:25630
+[   80531ms] [WARNING] Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information. @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@lit+reactive-element@2.1.2/node_modules/@lit/reactive-element/development/reactive-element.js:62
+[   80532ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:562
+[   80535ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:562
+[   80535ms] [LOG] [$updateSource] BAILING OUT EARLY! @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:565
+[   80536ms] [WARNING] Element model-viewer scheduled an update (generally because a property was set) after an update completed, causing a new update to be scheduled. This is inefficient and should be avoided unless the next update can only be scheduled as a side effect of the previous update. See https://lit.dev/msg/change-in-update for more information. @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@lit+reactive-element@2.1.2/node_modules/@lit/reactive-element/development/reactive-element.js:62
+[   80779ms] [LOG] IntersectionObserver fired! isIntersecting: true @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:303
+[   80779ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:562
+[   80779ms] [LOG] [$updateSource] BAILING OUT EARLY! @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:565
+[   81931ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.22_react-dom@19.1.2_react@19.1.2__react@19.1.2/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:25630
+[   83253ms] [WARNING] Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information. @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@lit+reactive-element@2.1.2/node_modules/@lit/reactive-element/development/reactive-element.js:62
+[   83254ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:562
+[   83256ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:562
+[   83256ms] [LOG] [$updateSource] BAILING OUT EARLY! @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:565
+[   83257ms] [WARNING] Element model-viewer scheduled an update (generally because a property was set) after an update completed, causing a new update to be scheduled. This is inefficient and should be avoided unless the next update can only be scheduled as a side effect of the previous update. See https://lit.dev/msg/change-in-update for more information. @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@lit+reactive-element@2.1.2/node_modules/@lit/reactive-element/development/reactive-element.js:62
+[   83331ms] [LOG] IntersectionObserver fired! isIntersecting: true @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:303
+[   83331ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:562
+[   83331ms] [LOG] [$updateSource] BAILING OUT EARLY! @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:565
+[   99104ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.22_react-dom@19.1.2_react@19.1.2__react@19.1.2/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:25630
+[  100249ms] [WARNING] Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information. @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@lit+reactive-element@2.1.2/node_modules/@lit/reactive-element/development/reactive-element.js:62
+[  100251ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:562
+[  100253ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:562
+[  100253ms] [LOG] [$updateSource] BAILING OUT EARLY! @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:565
+[  100254ms] [WARNING] Element model-viewer scheduled an update (generally because a property was set) after an update completed, causing a new update to be scheduled. This is inefficient and should be avoided unless the next update can only be scheduled as a side effect of the previous update. See https://lit.dev/msg/change-in-update for more information. @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@lit+reactive-element@2.1.2/node_modules/@lit/reactive-element/development/reactive-element.js:62
+[  100463ms] [LOG] IntersectionObserver fired! isIntersecting: true @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:303
+[  100464ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:562
+[  100464ms] [LOG] [$updateSource] BAILING OUT EARLY! @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:565
+[  163102ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.22_react-dom@19.1.2_react@19.1.2__react@19.1.2/node_modules/next/dist/client/dev/hot-reloader/app/hot-reloader-app.js:196
+[  164953ms] [LOG] [Fast Refresh] done in 1851ms @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.22_react-dom@19.1.2_react@19.1.2__react@19.1.2/node_modules/next/dist/client/dev/report-hmr-latency.js:13
+[  180776ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.22_react-dom@19.1.2_react@19.1.2__react@19.1.2/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:25630
+[  181969ms] [WARNING] Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information. @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@lit+reactive-element@2.1.2/node_modules/@lit/reactive-element/development/reactive-element.js:62
+[  181971ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:562
+[  181973ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:562
+[  181973ms] [LOG] [$updateSource] BAILING OUT EARLY! @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:565
+[  181973ms] [WARNING] Element model-viewer scheduled an update (generally because a property was set) after an update completed, causing a new update to be scheduled. This is inefficient and should be avoided unless the next update can only be scheduled as a side effect of the previous update. See https://lit.dev/msg/change-in-update for more information. @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@lit+reactive-element@2.1.2/node_modules/@lit/reactive-element/development/reactive-element.js:62
+[  182229ms] [LOG] IntersectionObserver fired! isIntersecting: true @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:303
+[  182229ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:562
+[  182229ms] [LOG] [$updateSource] BAILING OUT EARLY! @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:565
+[  183475ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.22_react-dom@19.1.2_react@19.1.2__react@19.1.2/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:25630
+[  184569ms] [WARNING] Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information. @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@lit+reactive-element@2.1.2/node_modules/@lit/reactive-element/development/reactive-element.js:62
+[  184570ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:562
+[  184572ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:562
+[  184572ms] [LOG] [$updateSource] BAILING OUT EARLY! @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:565
+[  184573ms] [WARNING] Element model-viewer scheduled an update (generally because a property was set) after an update completed, causing a new update to be scheduled. This is inefficient and should be avoided unless the next update can only be scheduled as a side effect of the previous update. See https://lit.dev/msg/change-in-update for more information. @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@lit+reactive-element@2.1.2/node_modules/@lit/reactive-element/development/reactive-element.js:62
+[  184837ms] [LOG] IntersectionObserver fired! isIntersecting: true @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:303
+[  184837ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:562
+[  184837ms] [LOG] [$updateSource] BAILING OUT EARLY! @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:565
+[  186020ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.22_react-dom@19.1.2_react@19.1.2__react@19.1.2/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:25630
+[  187052ms] [WARNING] Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information. @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@lit+reactive-element@2.1.2/node_modules/@lit/reactive-element/development/reactive-element.js:62
+[  187053ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:562
+[  187055ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:562
+[  187055ms] [LOG] [$updateSource] BAILING OUT EARLY! @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:565
+[  187055ms] [WARNING] Element model-viewer scheduled an update (generally because a property was set) after an update completed, causing a new update to be scheduled. This is inefficient and should be avoided unless the next update can only be scheduled as a side effect of the previous update. See https://lit.dev/msg/change-in-update for more information. @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@lit+reactive-element@2.1.2/node_modules/@lit/reactive-element/development/reactive-element.js:62
+[  187342ms] [LOG] IntersectionObserver fired! isIntersecting: true @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:303
+[  187342ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:562
+[  187342ms] [LOG] [$updateSource] BAILING OUT EARLY! @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:565
+[  188524ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.22_react-dom@19.1.2_react@19.1.2__react@19.1.2/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:25630
+[  189619ms] [WARNING] Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information. @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@lit+reactive-element@2.1.2/node_modules/@lit/reactive-element/development/reactive-element.js:62
+[  189620ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:562
+[  189623ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:562
+[  189623ms] [LOG] [$updateSource] BAILING OUT EARLY! @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:565
+[  189624ms] [WARNING] Element model-viewer scheduled an update (generally because a property was set) after an update completed, causing a new update to be scheduled. This is inefficient and should be avoided unless the next update can only be scheduled as a side effect of the previous update. See https://lit.dev/msg/change-in-update for more information. @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@lit+reactive-element@2.1.2/node_modules/@lit/reactive-element/development/reactive-element.js:62
+[  189896ms] [LOG] IntersectionObserver fired! isIntersecting: true @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:303
+[  189896ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:562
+[  189896ms] [LOG] [$updateSource] BAILING OUT EARLY! @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:565
+[  191083ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.22_react-dom@19.1.2_react@19.1.2__react@19.1.2/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:25630
+[  192219ms] [WARNING] Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information. @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@lit+reactive-element@2.1.2/node_modules/@lit/reactive-element/development/reactive-element.js:62
+[  192221ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:562
+[  192223ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:562
+[  192223ms] [LOG] [$updateSource] BAILING OUT EARLY! @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:565
+[  192224ms] [WARNING] Element model-viewer scheduled an update (generally because a property was set) after an update completed, causing a new update to be scheduled. This is inefficient and should be avoided unless the next update can only be scheduled as a side effect of the previous update. See https://lit.dev/msg/change-in-update for more information. @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@lit+reactive-element@2.1.2/node_modules/@lit/reactive-element/development/reactive-element.js:62
+[  192447ms] [LOG] IntersectionObserver fired! isIntersecting: true @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:303
+[  192447ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:562
+[  192447ms] [LOG] [$updateSource] BAILING OUT EARLY! @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:565
+[  225505ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.22_react-dom@19.1.2_react@19.1.2__react@19.1.2/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:25630
+[  226687ms] [WARNING] Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information. @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@lit+reactive-element@2.1.2/node_modules/@lit/reactive-element/development/reactive-element.js:62
+[  226689ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:562
+[  226691ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:562
+[  226692ms] [LOG] [$updateSource] BAILING OUT EARLY! @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:565
+[  226692ms] [WARNING] Element model-viewer scheduled an update (generally because a property was set) after an update completed, causing a new update to be scheduled. This is inefficient and should be avoided unless the next update can only be scheduled as a side effect of the previous update. See https://lit.dev/msg/change-in-update for more information. @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@lit+reactive-element@2.1.2/node_modules/@lit/reactive-element/development/reactive-element.js:62
+[  226884ms] [LOG] IntersectionObserver fired! isIntersecting: true @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:303
+[  226884ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:562
+[  226884ms] [LOG] [$updateSource] BAILING OUT EARLY! @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:565
+[  232013ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.22_react-dom@19.1.2_react@19.1.2__react@19.1.2/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:25630
+[  233254ms] [WARNING] Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information. @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@lit+reactive-element@2.1.2/node_modules/@lit/reactive-element/development/reactive-element.js:62
+[  233256ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:562
+[  233258ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:562
+[  233259ms] [LOG] [$updateSource] BAILING OUT EARLY! @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:565
+[  233259ms] [WARNING] Element model-viewer scheduled an update (generally because a property was set) after an update completed, causing a new update to be scheduled. This is inefficient and should be avoided unless the next update can only be scheduled as a side effect of the previous update. See https://lit.dev/msg/change-in-update for more information. @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@lit+reactive-element@2.1.2/node_modules/@lit/reactive-element/development/reactive-element.js:62
+[  233386ms] [LOG] IntersectionObserver fired! isIntersecting: true @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:303
+[  233386ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:562
+[  233386ms] [LOG] [$updateSource] BAILING OUT EARLY! @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/@google+model-viewer@4.3.1_three@0.183.2/node_modules/@google/model-viewer/lib/model-viewer-base.js:565

@@ -29,6 +29,7 @@
 - [x] Verify sticky header, mobile navigation, category filters, empty menu state, add-to-cart feedback, and cart count.
 - [x] Verify reduced-motion handling, semantic landmarks, alt text, labels, focus styles, and mobile tap targets.
 - [x] Verify no page-level horizontal overflow at 1440, 1024, 768, and 390 CSS px.
+- [x] Keep the complete 3D burger inside the initial mobile viewport without scrolling across short, standard, tall, and landscape phone dimensions.
 
 **Follow-up Polish**
 
@@ -47,12 +48,15 @@
   - Desktop, original full-page baseline: `output/playwright/desktop/burger-1440.png`
   - Tablet: `output/playwright/tablet/burger-1024.png`
   - Tablet/narrow: `output/playwright/tablet/burger-768.png`
-  - Mobile, current production hero: `output/playwright/mobile/burger-3d-prod-390.png`
+  - Mobile, current production hero: `output/playwright/mobile/burger-fit-390x844-production.png`
+  - Short mobile verification: `output/playwright/mobile/burger-fit-320x568-final.png`
+  - Previous clipped mobile state: `output/playwright/mobile/burger-3d-prod-390.png`
   - Mobile, original full-page baseline: `output/playwright/mobile/burger-390.png`
   - Mobile menu: `output/playwright/mobile/burger-390-menu.png`
 - Full-view side-by-side comparison: `output/comparisons/reference-vs-implementation-final.png`
 - Focused hero comparison: `output/comparisons/hero-focus-final.png`
 - Current 3D hero comparison: `output/playwright/comparison/stitch-vs-burger-3d.png`
+- Mobile before/after comparison: `output/playwright/comparison/mobile-burger-before-after-390x844.png`
 
 ## Capture Normalization
 
@@ -62,16 +66,17 @@
 - Full comparison canvas: 1714 × 2380 px.
 - Focused hero comparison: equal 809 × 600 px crops placed side by side.
 - Current 3D hero comparison: the 512 × 448 px Stitch 3D hero source and the 1440 × 1260 px production capture normalized to 512 × 448 px, then placed side by side.
+- Mobile before/after comparison: equal 390 × 844 px browser captures at device scale factor 1, placed side by side without resizing.
 - State: default landing page, all menu categories visible, all `whileInView` sections activated before the full-page captures.
 - Browser: Playwright Chromium via the user-requested Playwright CLI.
 
 ## Required Fidelity Surfaces
 
 - Fonts and typography: local Anton provides the condensed display hierarchy; local Be Vietnam Pro provides navigation, body, controls, and supporting copy. Weights, line-height, wrapping, and desktop hero scale were checked in the focused comparison.
-- Spacing and layout rhythm: header shell, 1050px desktop hero, four-card grid, banner frames, benefit row, CTA, footer columns, radii, shadows, and section gaps were checked across all four widths.
+- Spacing and layout rhythm: header shell, 1050px desktop hero, viewport-bound mobile hero, four-card grid, banner frames, benefit row, CTA, footer columns, radii, shadows, and section gaps were checked. The mobile hero reserves its remaining `100svh` height for the model after fitting the content block.
 - Colors and tokens: yellow hero, red actions, warm cream surface, charcoal footer, badge colors, borders, and shadows are mapped through CSS variables and remain consistent.
 - Image quality and asset fidelity: all available Stitch and user-provided source assets are local. The supplied 21 MB GLB replaces the flat hero image and renders at 760 × 535 CSS px on desktop with transparent background, neutral lighting, and a real-time shadow. Product images keep their crops; banners keep full content and native aspect ratios. The remaining low-resolution banner softness is classified P3 above.
-- Copy and content: required headings, product names, descriptions, prices, banner copy, benefit copy, contact details, and footer labels are present.
+- Copy and content: required headings, product names, descriptions, prices, banner copy, benefit copy, contact details, and footer labels are present. On screens 620 CSS px tall or shorter, the hero description and secondary star row are intentionally hidden so the primary headline, CTAs, social proof, and complete burger remain above the fold.
 - Icons and affordances: Lucide icons share a consistent stroke family; active category, active nav, cart badge, add success, mobile open/close, hover, focus, and reduced-motion states were checked.
 
 ## Primary Interactions Tested
@@ -83,7 +88,8 @@
 - 3D hero: GLB reports `loaded: true`; auto-rotation and camera controls are enabled; a drag test changes the camera orbit; zoom and pan are disabled to avoid hijacking page scroll.
 - Favicon: the rendered icon link resolves to `/images/hero/hero-burger.png`.
 - Console: 0 errors and 0 warnings in the clean production session.
-- Overflow: `scrollWidth === clientWidth` at 1440, 1024, 768, and 390.
+- Mobile burger containment: passed at 320×568, 360×640, 375×667, 390×844, 430×932, and landscape 844×390; the model's bounding rectangle stays fully inside the initial viewport at every tested size.
+- Overflow: `scrollWidth === clientWidth` at 1440, 1024, 768, 390, 360, and 320.
 
 ## Comparison History
 
@@ -98,7 +104,11 @@
    - Responsive captures show no clipping, broken grids, control loss, or page-level overflow.
 4. 3D hero update — `output/playwright/comparison/stitch-vs-burger-3d.png`
    - Intentional change: replaced the static hero burger image with the user-supplied GLB while preserving the source layout, badges, decoration, typography, and hero proportions.
-   - Post-change evidence confirms the model is fully visible on desktop, remains intentionally oversized within the clipped mobile composition, loads successfully, supports pointer interaction, and introduces no page-level overflow.
+   - Post-change evidence confirms the model is fully visible on desktop, loads successfully, supports pointer interaction, and introduces no page-level overflow.
    - No actionable P0/P1/P2 drift was found; the new 3D subject is an explicit user-requested deviation from the flat source image.
+5. Mobile viewport-fit update — `output/playwright/comparison/mobile-burger-before-after-390x844.png`
+   - [P1] Previous mobile composition placed the lower half of the hero model below the initial viewport, forcing users to scroll to see the full burger.
+   - Fixes: bound the mobile hero to `100svh`, made the content scale with both viewport width and height, reserved the remaining flex space for the model, reduced non-essential decorations, added a compact short-phone breakpoint, and added a landscape layout.
+   - Post-fix production evidence shows the complete burger above the wave at all six tested phone dimensions with no horizontal overflow. No actionable P0/P1/P2 findings remain.
 
 final result: passed

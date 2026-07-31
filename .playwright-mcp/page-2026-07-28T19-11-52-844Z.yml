@@ -1,0 +1,217 @@
+- generic [active] [ref=f26e1]:
+  - status [ref=f26e2]:
+    - paragraph [ref=f26e3]: Firing up the grill…
+  - banner [ref=f26e8]:
+    - generic [ref=f26e9]:
+      - link "Burger House — home" [ref=f26e10] [cursor=pointer]:
+        - /url: "#home"
+        - generic [ref=f26e12]:
+          - strong [ref=f26e13]: BURGER
+          - strong [ref=f26e14]: HOUSE
+      - navigation "Primary navigation" [ref=f26e15]:
+        - link "Home" [ref=f26e16] [cursor=pointer]:
+          - /url: "#home"
+        - link "Menu" [ref=f26e17] [cursor=pointer]:
+          - /url: "#menu"
+        - link "Promos" [ref=f26e18] [cursor=pointer]:
+          - /url: "#promos"
+        - link "About Us" [ref=f26e19] [cursor=pointer]:
+          - /url: "#about"
+        - link "Locations" [ref=f26e20] [cursor=pointer]:
+          - /url: "#contact"
+        - link "Contact" [ref=f26e21] [cursor=pointer]:
+          - /url: "#contact"
+      - generic [ref=f26e22]:
+        - link "Cart with 2 items" [ref=f26e23] [cursor=pointer]:
+          - /url: "#menu"
+          - generic [ref=f26e28]: "2"
+        - link "Order now" [ref=f26e29] [cursor=pointer]:
+          - /url: "#menu"
+  - main [ref=f26e33]:
+    - region [ref=f26e34]:
+      - generic [ref=f26e36]:
+        - generic [ref=f26e37]:
+          - generic [ref=f26e38]: HOT & FRESH
+          - heading "Big Flavor. Big Burgers. Big Mood." [level=1] [ref=f26e41]:
+            - generic [ref=f26e42]: Big Flavor.
+            - generic [ref=f26e43]: Big Burgers.
+            - generic [ref=f26e44]: Big Mood.
+          - paragraph [ref=f26e45]: Juicy patties, melty cheese, andbold flavors stacked just right.Made fresh. Made for you.
+          - generic [ref=f26e46]:
+            - link "Order now" [ref=f26e47] [cursor=pointer]:
+              - /url: "#menu"
+            - link [ref=f26e51] [cursor=pointer]:
+              - /url: "#menu"
+          - generic [ref=f26e61]:
+            - strong [ref=f26e62]: 4.8k+ happy burger lovers!
+            - generic "4.8 out of 5 stars from 2.3 thousand reviews" [ref=f26e63]: ★★★★★ 4.8 (2.3k reviews)
+        - generic "Burger House signature burger" [ref=f26e64]:
+          - generic [ref=f26e69]:
+            - generic [ref=f26e70]: GET
+            - strong [ref=f26e71]: 20%
+            - generic [ref=f26e72]: "OFF"
+          - generic [ref=f26e73]:
+            - strong [ref=f26e77]: 20–30 min
+            - generic [ref=f26e78]: Fast Delivery
+          - generic [ref=f26e79]:
+            - strong [ref=f26e82]: "4.8"
+            - generic [ref=f26e83]: Google Rating
+    - region [ref=f26e98]:
+      - generic [ref=f26e99]:
+        - generic [ref=f26e100]:
+          - generic [ref=f26e101]:
+            - generic [ref=f26e102]: Try Our
+            - heading "Featured Favorites" [level=2] [ref=f26e103]
+          - group "Filter menu categories" [ref=f26e104]:
+            - button "All" [pressed] [ref=f26e105] [cursor=pointer]
+            - button "Burgers" [ref=f26e107] [cursor=pointer]
+            - button "Chicken" [ref=f26e108] [cursor=pointer]
+            - button "Sides" [ref=f26e109] [cursor=pointer]
+            - button "Drinks" [ref=f26e110] [cursor=pointer]
+        - generic [ref=f26e111]:
+          - article [ref=f26e112]:
+            - generic [ref=f26e113]: Best seller
+            - img "Classic Burger with fresh toppings" [ref=f26e115]
+            - generic [ref=f26e116]:
+              - heading "Classic Burger" [level=3] [ref=f26e117]
+              - paragraph [ref=f26e118]: Beef patty, lettuce, tomato, onions, pickles, house sauce.
+            - generic [ref=f26e119]:
+              - strong [ref=f26e120]: $7.49
+              - button "Add Classic Burger to cart" [ref=f26e121] [cursor=pointer]
+          - article [ref=f26e123]:
+            - generic [ref=f26e124]: Popular
+            - img "Double Cheese with fresh toppings" [ref=f26e126]
+            - generic [ref=f26e127]:
+              - heading "Double Cheese" [level=3] [ref=f26e128]
+              - paragraph [ref=f26e129]: Two juicy beef patties with double cheese, onions, pickles & special sauce.
+            - generic [ref=f26e130]:
+              - strong [ref=f26e131]: $9.49
+              - button "Add Double Cheese to cart" [ref=f26e132] [cursor=pointer]
+          - article [ref=f26e134]:
+            - generic [ref=f26e135]: Spicy
+            - img "Spicy Jalapeño with fresh toppings" [ref=f26e137]
+            - generic [ref=f26e138]:
+              - heading "Spicy Jalapeño" [level=3] [ref=f26e139]
+              - paragraph [ref=f26e140]: Beef patty, jalapeños, pepper jack cheese, spicy mayo.
+            - generic [ref=f26e141]:
+              - strong [ref=f26e142]: $8.49
+              - button "Add Spicy Jalapeño to cart" [ref=f26e143] [cursor=pointer]
+          - article [ref=f26e145]:
+            - generic [ref=f26e146]: New
+            - img "Crispy Chicken Burger with fresh toppings" [ref=f26e148]
+            - generic [ref=f26e149]:
+              - heading "Crispy Chicken Burger" [level=3] [ref=f26e150]
+              - paragraph [ref=f26e151]: Crispy chicken, lettuce, pickle, mayo on a toasted bun.
+            - generic [ref=f26e152]:
+              - strong [ref=f26e153]: $7.99
+              - button "Add Crispy Chicken Burger to cart" [ref=f26e154] [cursor=pointer]
+        - button [ref=f26e156]
+    - region "Tuesday promotion" [ref=f26e160]:
+      - 'img "Limited time 2-for-1 Tuesday promotion: buy any burger and get one free" [ref=f26e163]'
+    - region [ref=f26e164]:
+      - generic [ref=f26e165]:
+        - heading "Why Burger House?" [level=2] [ref=f26e167]:
+          - generic [ref=f26e168]: »
+          - text: Why Burger House?
+          - generic [ref=f26e169]: «
+        - generic [ref=f26e170]:
+          - generic [ref=f26e176]:
+            - heading "Fresh Ingredients" [level=3] [ref=f26e177]
+            - paragraph [ref=f26e178]: We use only the freshest ingredients, sourced daily for the best taste.
+          - generic [ref=f26e186]:
+            - heading "Fast Delivery" [level=3] [ref=f26e187]
+            - paragraph [ref=f26e188]: Hot, fresh, and fast. Delivered to your door in 20–30 minutes.
+          - generic [ref=f26e197]:
+            - heading "100% Juicy Patties" [level=3] [ref=f26e198]
+            - paragraph [ref=f26e199]: Our beef patties are 100% fresh, never frozen and full of flavor.
+          - generic [ref=f26e204]:
+            - heading "Made Daily" [level=3] [ref=f26e205]
+            - paragraph [ref=f26e206]: Everything is made to order, just the way you like it.
+    - region "Order your next burger" [ref=f26e207]:
+      - img "Ready for your next bite? Order now from Burger House" [ref=f26e210]
+    - region [ref=f26e211]:
+      - generic [ref=f26e212]:
+        - generic [ref=f26e213]:
+          - generic [ref=f26e214]: Come Say Hi
+          - heading "Get In Touch" [level=2] [ref=f26e215]
+          - paragraph [ref=f26e216]: Questions, catering requests, or just craving a burger? Reach out and the Burger House team will get right back to you.
+          - link "Call the store (555) 123–4567" [ref=f26e217] [cursor=pointer]:
+            - /url: tel:+15551234567
+            - generic [ref=f26e221]:
+              - strong [ref=f26e222]: Call the store
+              - generic [ref=f26e223]: (555) 123–4567
+        - generic [ref=f26e224]:
+          - link "Address 123 Burger St., Flavor Town, FT 12345" [ref=f26e226] [cursor=pointer]:
+            - /url: https://maps.google.com/?q=123+Burger+St+Flavor+Town
+            - generic [ref=f26e231]: Address
+            - generic [ref=f26e232]: 123 Burger St., Flavor Town, FT 12345
+          - link "Phone (555) 123–4567" [ref=f26e234] [cursor=pointer]:
+            - /url: tel:+15551234567
+            - generic [ref=f26e238]: Phone
+            - generic [ref=f26e239]: (555) 123–4567
+          - link "Email hello@burgerhouse.com" [ref=f26e241] [cursor=pointer]:
+            - /url: mailto:hello@burgerhouse.com
+            - generic [ref=f26e246]: Email
+            - generic [ref=f26e247]: hello@burgerhouse.com
+          - generic [ref=f26e249]:
+            - generic [ref=f26e254]: Hours
+            - generic [ref=f26e255]: "Mon – Sun: 10:00 AM – 11:00 PM"
+  - contentinfo [ref=f26e256]:
+    - generic [ref=f26e258]:
+      - generic [ref=f26e259]:
+        - link "Burger House — home" [ref=f26e260] [cursor=pointer]:
+          - /url: "#home"
+          - generic [ref=f26e262]:
+            - strong [ref=f26e263]: BURGER
+            - strong [ref=f26e264]: HOUSE
+        - paragraph [ref=f26e265]: Big flavor. Big burgers. Big mood.Thanks for being part of the Burger House family!
+        - generic "Social media" [ref=f26e266]:
+          - link "Instagram" [ref=f26e267] [cursor=pointer]:
+            - /url: https://instagram.com
+          - link "Facebook" [ref=f26e271] [cursor=pointer]:
+            - /url: https://facebook.com
+          - link "YouTube" [ref=f26e274] [cursor=pointer]:
+            - /url: https://youtube.com
+      - generic [ref=f26e278]:
+        - heading "Quick Links" [level=2] [ref=f26e279]
+        - navigation "Footer navigation" [ref=f26e280]:
+          - link "Home" [ref=f26e281] [cursor=pointer]:
+            - /url: "#home"
+          - link "Menu" [ref=f26e282] [cursor=pointer]:
+            - /url: "#menu"
+          - link "Promos" [ref=f26e283] [cursor=pointer]:
+            - /url: "#promos"
+          - link "About Us" [ref=f26e284] [cursor=pointer]:
+            - /url: "#about"
+          - link "Locations" [ref=f26e285] [cursor=pointer]:
+            - /url: "#contact"
+          - link "Contact" [ref=f26e286] [cursor=pointer]:
+            - /url: "#contact"
+      - generic [ref=f26e287]:
+        - heading "Support" [level=2] [ref=f26e288]
+        - navigation "Support links" [ref=f26e289]:
+          - link "FAQ" [ref=f26e290] [cursor=pointer]:
+            - /url: "#contact"
+          - link "Delivery Info" [ref=f26e291] [cursor=pointer]:
+            - /url: "#contact"
+          - link "Returns & Refunds" [ref=f26e292] [cursor=pointer]:
+            - /url: "#contact"
+          - link "Privacy Policy" [ref=f26e293] [cursor=pointer]:
+            - /url: "#contact"
+          - link "Terms of Service" [ref=f26e294] [cursor=pointer]:
+            - /url: "#contact"
+      - generic [ref=f26e295]:
+        - heading "Contact Us" [level=2] [ref=f26e296]
+        - generic [ref=f26e297]:
+          - link [ref=f26e298] [cursor=pointer]:
+            - /url: https://maps.google.com/?q=123+Burger+St+Flavor+Town
+            - generic [ref=f26e302]: 123 Burger St.Flavor Town, FT 12345
+          - link "(555) 123–4567" [ref=f26e303] [cursor=pointer]:
+            - /url: tel:+15551234567
+          - link "hello@burgerhouse.com" [ref=f26e307] [cursor=pointer]:
+            - /url: mailto:hello@burgerhouse.com
+          - generic [ref=f26e312]: "Mon – Sun: 10:00 AM – 11:00 PM"
+    - generic [ref=f26e318]:
+      - generic [ref=f26e319]: © 2024 Burger House. All rights reserved.
+      - generic [ref=f26e320]: Made with for burger lovers.
+  - alert [ref=f26e323]

@@ -102,11 +102,7 @@ export function HeroSection() {
         </div>
         <div className="hero-visual" aria-label="Burger House signature burger">
           <div className="hero-burger">
-            <motion.div
-              className="hero-burger__float"
-              animate={reduceMotion ? undefined : { y: [0, -10, 0] }}
-              transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
-            >
+            <motion.div className="hero-burger__float">
               <HeroBurgerModel autoRotate={!reduceMotion} />
             </motion.div>
           </div>

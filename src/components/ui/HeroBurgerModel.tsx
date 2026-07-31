@@ -15,7 +15,10 @@ export function HeroBurgerModel({ autoRotate }: HeroBurgerModelProps) {
 
   useEffect(() => {
     const model = modelRef.current;
-    const handleLoad = () => markReady();
+    let settleTimer: number | undefined;
+    const handleLoad = () => {
+      settleTimer = window.setTimeout(markReady, 400);
+    };
     const handleError = () => {
       setHasError(true);
       markReady();
@@ -29,6 +32,7 @@ export function HeroBurgerModel({ autoRotate }: HeroBurgerModelProps) {
     });
 
     return () => {
+      window.clearTimeout(settleTimer);
       model?.removeEventListener("load", handleLoad);
       model?.removeEventListener("error", handleError);
     };

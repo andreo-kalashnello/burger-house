@@ -1,0 +1,15 @@
+[     900ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ https://burger-house-bice.vercel.app/_next/static/chunks/437.12c923cde5cac612.js:586
+[     902ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ https://burger-house-bice.vercel.app/_next/static/chunks/437.12c923cde5cac612.js:586
+[     902ms] [LOG] [$updateSource] BAILING OUT EARLY! @ https://burger-house-bice.vercel.app/_next/static/chunks/437.12c923cde5cac612.js:589
+[    1339ms] [LOG] IntersectionObserver fired! isIntersecting: true @ https://burger-house-bice.vercel.app/_next/static/chunks/437.12c923cde5cac612.js:586
+[    1340ms] [LOG] [$updateSource] called! 
+src: /models/hero-burger.glb
+extraUrls: 
+loaded: false @ https://burger-house-bice.vercel.app/_next/static/chunks/437.12c923cde5cac612.js:586
+[    1340ms] [LOG] [$updateSource] BAILING OUT EARLY! @ https://burger-house-bice.vercel.app/_next/static/chunks/437.12c923cde5cac612.js:589
